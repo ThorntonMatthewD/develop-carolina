@@ -44,7 +44,7 @@ function App() {
             direction="column"
             alignItems="center"
             justifyContent="center"
-            style={{ minHeight: '100vh' }}
+            style={{ minHeight: '90vh' }}
           >
               <Typography component="h1" variant="h3">
                 Welcome!
@@ -105,15 +105,15 @@ function App() {
                   FORGOT PASSWORD
                 </Button>
               </Box>
-              <Button
-                  fullWidth
-                  variant="outlined"
-                  sx={{ mt: 1, mb: 0 }}
-                >
-                  CREATE ACCOUNT
-              </Button>
           </Grid>
-          </Container>
+          <Button
+            fullWidth
+            variant="outlined"
+            sx={{ mt: 1, mb: 0 }}
+          >
+            CREATE ACCOUNT
+          </Button>
+        </Container>
       </ThemeProvider>
     </div>
   );
