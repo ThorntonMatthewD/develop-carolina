@@ -56,7 +56,7 @@ function App() {
                   id="email"
                   name="email"
                   autoComplete="email"
-                  label="Email"
+                  placeholder="Email"
                   autoFocus
                   InputProps={{
                     startAdornment: (
@@ -73,7 +73,7 @@ function App() {
                   type="password"
                   id="password"
                   autoComplete="password"
-                  label="Password"
+                  placeholder="Password"
                   InputProps={{
                     startAdornment: (
                       <InputAdornment position="start">
