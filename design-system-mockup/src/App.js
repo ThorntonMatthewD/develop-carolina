@@ -36,26 +36,16 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-      <Container component="main" maxWidth="xs">
-      <CssBaseline />
-        <Grid
-          container
-          spacing={0}
-          direction="column"
-          alignItems="center"
-          justifyContent="center"
-          style={{ minHeight: '100vh' }}
-        >
-            <Box
-              s={{
-                marginTop: 8,
-                marginBottom: 10,
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: "center",
-              }}
-            >
+        <Container component="main" maxWidth="xs">
+          <CssBaseline />
+          <Grid
+            container
+            spacing={0}
+            direction="column"
+            alignItems="center"
+            justifyContent="center"
+            style={{ minHeight: '100vh' }}
+          >
               <Typography component="h1" variant="h3">
                 Welcome!
               </Typography>
@@ -87,7 +77,7 @@ function App() {
                   InputProps={{
                     startAdornment: (
                       <InputAdornment position="start">
-                        <Lock />
+                      <Lock />
                       </InputAdornment>
                     ),
                   }}
@@ -121,10 +111,9 @@ function App() {
                   sx={{ mt: 1, mb: 0 }}
                 >
                   CREATE ACCOUNT
-                </Button>
-            </Box>
+              </Button>
           </Grid>
-        </Container>
+          </Container>
       </ThemeProvider>
     </div>
   );
