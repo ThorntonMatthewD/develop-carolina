@@ -93,7 +93,7 @@ function App() {
               </Button>
               <Collapse in={forgotOpen}>
                 <Alert onClose={() => {setForgotOpen(false);}}>
-                  Forgot your password? Boy, that's rough... Someone should probably do something about that. Well, good
+                  Forgot your password? Boy, that's rough... Someone should probably do something about that. Well, good luck!
                 </Alert>
               </Collapse>
               <Button
