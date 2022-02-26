@@ -4,8 +4,8 @@ char board[10];
 
 void displayBoard();
 void resetBoard();
-
 void markTile(int icon);
+
 int checkWin();
 int keepPlayingCheck(int *turnCount);
 
