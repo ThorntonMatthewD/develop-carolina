@@ -33,7 +33,6 @@ do
       SUCCESS=0
       break;
       ;;
-
   esac
 done
 
