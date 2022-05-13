@@ -14,23 +14,23 @@ do
   case "$1" in
     -z | --zipcode )
       ZIP="$2"
-      SUCCESS=1
+      SUCCESS=1;
       shift 2;
       break;
       ;;
     -h | --help)
-      show_help
-      SUCCESS=0
+      show_help;
+      SUCCESS=0;
       break;
       ;;
     --)
-      SUCCESS=0
+      SUCCESS=0;
       shift;
       break;
       ;;
     *)
-      echo "Unexpected option: $1"
-      SUCCESS=0
+      echo "Unexpected option: $1";
+      SUCCESS=0;
       break;
       ;;
   esac
@@ -41,8 +41,8 @@ shift $((OPTIND - 1))
 
 if (($# == 0))
 then
-    echo "No positional arguments specified"
-    exit 1
+    echo "No positional arguments specified";
+    exit 1;
 fi
 
 if (($SUCCESS == 0))
